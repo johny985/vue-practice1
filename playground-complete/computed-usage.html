@@ -9,6 +9,9 @@
   .warning {
     color: red;
   }
+  .correct {
+    color: blue
+  }
   </style>
 </head>
 <body>
@@ -31,7 +34,7 @@
           // } else {
           //   return null;
           // }
-          return this.isError ? 'warning' : null;
+          return this.isError ? 'warning' : 'correct';
         }
       }
     });
